@@ -20,17 +20,17 @@
   将login.html页面引入本页面，例子@{/page/success.html}
 5.th:each="user:${userList}"
   将用户列表获取到并利用user将其遍历,例子
-  <ul>
+  <!--<ul>
     <li th:each="user:${userList}">
       <span th:text="${user.name}"></span>
     </li>
-  </ul>
+  </ul>-->
 6. th:each="map:${myMap}"
   将map键值对获取到并利用map将其遍历,例子
-   <ul>
+   <!--<ul>
     <li th:each="map:${myMap}">
       <span th:text="${map.key}"></span>
       <!-- map(String,User) -->
       <span th:text="${map.value.name}"></span>
     </li>
-  </ul>
+  </ul>-->
